@@ -1,0 +1,32 @@
+// Question 116: Create a switch case that matches several cases to the same code block, representing seasons.
+
+function seasonsOfPakistan (month:number) {
+    switch (month) {
+        case 12:
+        case 1:
+        case 2:
+            console.log("Winter");
+            break;
+        case 3:
+        case 4:
+        case 5:
+            console.log("Spring");
+            break;
+        case 6:
+        case 7:
+        case 8:
+            console.log("Summer");
+            break;
+        case 9:
+        case 10:
+        case 11:
+            console.log("Autumn/Spring");
+            break;
+        default:
+            console.log("Invalid Number")
+    }
+}
+seasonsOfPakistan(3);
+seasonsOfPakistan(8);
+seasonsOfPakistan(2);
+seasonsOfPakistan(9);
