@@ -1,0 +1,34 @@
+Web Vitals are a set of metrics introduced by Google to measure and improve the quality of user experience on the web. They focus on aspects that matter most to users, such as load time, interactivity, and the stability of content as it loads. Here's a breakdown of the key Web Vitals metrics:
+
+### Core Web Vitals
+1. **Largest Contentful Paint (LCP)**:
+   - **What it measures**: The time it takes for the largest content element (like an image or block of text) on a webpage to become visible to users.
+   - **Why it's important**: It reflects the loading performance of a page. A fast LCP reassures users that the page is useful and ready.
+
+2. **First Input Delay (FID)**:
+   - **What it measures**: The time from when a user first interacts with a page (like clicking a link or tapping a button) to the time the browser responds to that interaction.
+   - **Why it's important**: It measures interactivity. A low FID means the page is responsive and provides a smooth user experience.
+
+3. **Cumulative Layout Shift (CLS)**:
+   - **What it measures**: The amount of unexpected layout shifts of visible content on a page during its lifespan.
+   - **Why it's important**: It assesses visual stability. A low CLS ensures that the content doesn’t move around unexpectedly, preventing user frustration.
+
+### Other Web Vitals
+- **First Contentful Paint (FCP)**:
+  - **What it measures**: The time it takes for the browser to render the first piece of DOM content (like text or images) after a user navigates to a page.
+  - **Why it's important**: It gives an indication of the perceived loading speed.
+
+- **Time to Interactive (TTI)**:
+  - **What it measures**: The time it takes for a page to become fully interactive, meaning it can reliably respond to user inputs quickly.
+  - **Why it's important**: It shows when a page is ready for user interaction.
+
+- **Total Blocking Time (TBT)**:
+  - **What it measures**: The total amount of time that a page is blocked from responding to user inputs, occurring between FCP and TTI.
+  - **Why it's important**: It highlights potential responsiveness issues that can affect user experience.
+
+### Why Web Vitals Matter
+- **User Experience**: Good scores on Web Vitals indicate a smooth, fast, and visually stable user experience.
+- **SEO**: Google considers Web Vitals as part of its page ranking criteria, meaning better scores can lead to better search engine rankings.
+- **Business Impact**: Faster, more interactive, and stable pages can lead to higher user engagement, lower bounce rates, and increased conversions.
+
+By focusing on Web Vitals, developers and site owners can prioritize efforts to enhance the most critical aspects of user experience on their websites.

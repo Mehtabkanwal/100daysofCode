@@ -1,0 +1,26 @@
+### SSL (Secure Sockets Layer):
+- **What it is**: SSL is a protocol for establishing a secure, encrypted connection between a server and a client (like your web browser).
+- **Why it's important**: It helps keep the data you send and receive private and safe from eavesdroppers.
+- **Status**: SSL is now outdated and has been replaced by TLS.
+
+### TLS (Transport Layer Security):
+- **What it is**: TLS is the updated and more secure version of SSL. It's a protocol that ensures privacy and data integrity between two communicating applications.
+- **Why it's important**: TLS is more secure than SSL, fixing many of the vulnerabilities found in SSL. It's what we currently use to keep our internet connections secure.
+- **Example**: When you see "https://" in your browser's address bar, it's likely using TLS.
+
+### HTTPS (Hypertext Transfer Protocol Secure):
+- **What it is**: HTTPS is the secure version of HTTP, the protocol used for transferring data over the web. HTTPS uses TLS to encrypt the data.
+- **Why it's important**: It ensures that the data you send to a website and the data the website sends back to you are encrypted, protecting against eavesdropping and tampering.
+- **How it looks**: Websites using HTTPS show a padlock icon in the browser's address bar and the URL starts with "https://".
+
+### SSH (Secure Shell):
+- **What it is**: SSH is a protocol used to securely access and manage devices over a network.
+- **Why it's important**: It provides a secure way to log into another computer over a network, execute commands, and transfer files. It's commonly used by system administrators.
+- **Example**: If you need to remotely access a server to update software or manage files, you'd use SSH to ensure that the connection is secure.
+
+### Summary:
+- **SSL and TLS**: Protocols for securing data between a web server and a browser. TLS is the more secure and current version.
+- **HTTPS**: A secure version of HTTP using TLS to encrypt web traffic.
+- **SSH**: A protocol for securely accessing and managing remote devices over a network.
+
+Each of these technologies plays a crucial role in keeping our online activities private and secure.
